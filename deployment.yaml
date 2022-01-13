@@ -51,7 +51,7 @@ metadata:
     allow.http: "false"
 spec:
   rules:
-  - host: wildfly.rancher.leve.app.br
+  - host: wildfly1.rancher.leve.app.br
     http:
       paths:
         - path: /
