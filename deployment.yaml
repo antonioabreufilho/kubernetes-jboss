@@ -45,13 +45,13 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  namespace: java
+  #namespace: java
   name: jboss-ingress
   annotations:
     allow.http: "false"
 spec:
   rules:
-  - host: wildfly1.rancher.leve.app.br
+  - host: wildfly.rancher.leve.app.br
     http:
       paths:
         - path: /
